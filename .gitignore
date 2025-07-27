@@ -24,11 +24,6 @@ Thumbs.db
 *.log
 *.out
 
-# Model artifacts and results
-results/
-model_checkpoints/
-images/
-
 # PyTorch Lightning and HuggingFace
 lightning_logs/
 *.ckpt
