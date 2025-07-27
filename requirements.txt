@@ -1,0 +1,9 @@
+torch
+torchvision
+matplotlib
+numpy
+scikit-learn
+scipy
+vibecheck
+rsatoolbox==0.1.5
+

@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Mac OS and system files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Model artifacts and results
+results/
+model_checkpoints/
+images/
+
+# PyTorch Lightning and HuggingFace
+lightning_logs/
+*.ckpt
+*.pth
+*.pt
+
+# TensorBoard and wandb
+runs/
+wandb/
+
+# Test coverage
+.coverage
+htmlcov/
+coverage.xml
+.cache/
+
+# MyPy, Pyre, Pylint
+.mypy_cache/
+.pyre/
+.pylint.d/
+
+# Data files
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.csv
+*.tsv
+*.jsonl
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
