@@ -27,8 +27,6 @@ Thumbs.db
 # PyTorch Lightning and HuggingFace
 lightning_logs/
 *.ckpt
-*.pth
-*.pt
 
 # TensorBoard and wandb
 runs/
@@ -50,7 +48,6 @@ coverage.xml
 *.hdf5
 *.npz
 *.npy
-*.csv
 *.tsv
 *.jsonl
 

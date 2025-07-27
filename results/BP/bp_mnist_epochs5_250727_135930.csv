@@ -1,0 +1,7 @@
+namespace(train_mode='BP', dataset='MNIST', epochs=5, batch_size=64, test_batch_size=1000, bp_lr=1, lr=0.0005, b_lr=0.0001, gamma=0.8, no_cuda=False, dry_run=False, seed=42, log_interval=10, save_model=True, device=device(type='cuda'))
+Epoch,Training Loss,Test Loss,Test Accuracy
+1,0.1539599597454071,0.04808056354522705,98.41
+2,0.03898186236619949,0.04592631421983242,98.54
+3,0.024288132786750793,0.03255766127258539,98.99
+4,0.015680205076932907,0.031135229207575322,98.96
+5,0.0104935672134161,0.03347315415740013,98.95

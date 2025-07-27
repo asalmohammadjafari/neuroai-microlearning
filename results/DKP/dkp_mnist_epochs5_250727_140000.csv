@@ -1,0 +1,7 @@
+namespace(train_mode='DKP', dataset='MNIST', epochs=5, batch_size=64, test_batch_size=1000, bp_lr=1, lr=0.0005, b_lr=0.0001, gamma=0.8, no_cuda=False, dry_run=False, seed=42, log_interval=10, save_model=True, device=device(type='cuda'))
+Epoch,Training Loss,Test Loss,Test Accuracy
+1,0.36716875433921814,0.1183207206428051,96.52
+2,0.10105167329311371,0.0744375966489315,97.81
+3,0.07305018603801727,0.06110009290277958,98.02
+4,0.060455307364463806,0.053254217654466626,98.37
+5,0.0519271120429039,0.046024393662810324,98.57

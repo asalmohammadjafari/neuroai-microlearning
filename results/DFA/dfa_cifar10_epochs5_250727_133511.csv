@@ -1,0 +1,7 @@
+namespace(train_mode='DFA', dataset='CIFAR10', epochs=5, batch_size=64, test_batch_size=1000, bp_lr=1, lr=0.0005, b_lr=0.0001, gamma=0.8, no_cuda=False, dry_run=False, seed=42, log_interval=10, save_model=True, device=device(type='cuda'))
+Epoch,Training Loss,Test Loss,Test Accuracy
+1,1.7036350965499878,1.427509319782257,48.68
+2,1.3731054067611694,1.3514767646789552,52.54
+3,1.283595085144043,1.3024508476257324,54.31
+4,1.2223261594772339,1.24523264169693,56.28
+5,1.1740657091140747,1.2312926530838013,56.86

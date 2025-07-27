@@ -1,0 +1,7 @@
+namespace(train_mode='DKP', dataset='CIFAR10', epochs=5, batch_size=64, test_batch_size=1000, bp_lr=1, lr=0.0005, b_lr=0.0001, gamma=0.8, no_cuda=False, dry_run=False, seed=42, log_interval=10, save_model=True, device=device(type='cuda'))
+Epoch,Training Loss,Test Loss,Test Accuracy
+1,1.643784761428833,1.3576278805732727,50.62
+2,1.2853573560714722,1.2271412014961243,56.16
+3,1.1587960720062256,1.1653258442878722,59.04
+4,1.0572551488876343,1.1156790256500244,60.48
+5,0.9892559051513672,1.047291111946106,62.54
